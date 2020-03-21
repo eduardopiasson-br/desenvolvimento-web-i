@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Atividades</title>
+</head>
+<body style="background-color: rgba(94,74,226,0.7)">
+
+	<!-- EXERCÍCIO 1 -->
+	<div style="margin-bottom:60px;height:50px;border-radius:10px;background-color: rgba(63,222,65,0.9)">
+		<h1 style="padding-top:15px;text-align:center;font-size:20px;color: rgba(30,20,28)">COR DE FUNDO FUNCIONA COM OUTROS ELEMENTOS HTML? E 		COM O BODY? TESTE E APRESENTE OS RESULTADOS?</h1>
+		<span style="background-color: red; font-size: 25px"> Exemplo funcionando</span>
+	</div>
+	<hr>
+
+	<!-- EXERCÍCIO 2 -->
+	<div style="margin-top: 50px;text-align: center;">
+		<h1>Em HTML as cores podem ser especificadas usando valores RGB, HEX, HSL, RGBA, HSLA, e, nomes das cores. Neste sentido, discorra sobre valores RGB, HEX, HSL, RGBA, HSLA.</h1>
+		<p style="color: rgb(15,15,255);background-color: rgb(255,255,255);text-align: center;">
+			<a href="https://www.w3schools.com/colors/colors_rgb.asp">
+				Um valor de cor RGB é especificado com: rgb (vermelho, verde, azul). Cada parâmetro (vermelho, verde e azul) define a intensidade da cor como um número inteiro entre 0 e 255.
+			</a>
+		</p>
+		<p style="color: #111111;background-color: #ffffff;text-align: center;">
+			<a href="https://www.color-hex.com/">
+				O hexadecimal em cores fornece informações sobre cores, incluindo modelos de cores (RGB, HSL, HSV e CMYK), cores triádicas, cores monocromáticas e cores análogas calculadas na página colorida
+			</a>
+		</p>
+		<p style="color: hsl(356, 97%, 12%);background-color: hsl(179, 97%, 84%);text-align: center;">
+			<a style="color: hsl(356, 97%, 12%)" href="https://www.w3schools.com/colors/colors_hsl.asp">
+				HSL significa matiz, saturação e leveza. Valores de cor HSL são especificadas com: .hsl(hue, saturation, lightness)
+			</a>
+		</p>
+		<p style="background-color: rgb(255,255,255,0.2);text-align: center;">
+			<a style="color: rgb(15,15,255, 0.5);" 
+			href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/seletor_de_cores">
+				O formato rgba é o mesmo que rgb porém com tratamento do canal alfa que controla a opacidade da cor
+			</a>
+		</p>
+		<p style="background-color: hsl(179, 97%, 84%, 70%);text-align: center;">
+			<a style="color: hsl(356, 97%, 12%, 30%)" 
+			href="https://www.dicas-l.com.br/arquivo/cores_css_definicao_com_as_funcoes_hsl_e_hsla.php">
+				O formato hsla é o mesmo que hsl porém com tratamento do canal alfa que controla a opacidade da cor
+			</a>
+		</p>
+	</div>
+	<hr>
+
+	<!-- EXERCÍCIO 3 -->
+	<div style="background-color: white">
+		<h1 style="text-align:justify;font-size: 30px;color: purple">
+			Qual a vantagem em utilizar valores como HEX no lugar do nome das cores? Fundamente com exemplos práticos.
+		</h1>
+		<p style="color: #325a2c">
+			O hexadecimal em cores fornece informações sobre cores, incluindo modelos de cores (RGB, HSL, HSV e CMYK), cores triádicas, cores monocromáticas e cores análogas calculadas na página colorida. Color-hex.com também gera um código css simples para a cor selecionada.
+		</p>
+	</div>
+	<hr>
+
+	<!-- EXERCÍCIO 4 -->
+	<div>
+		<h1 style="background-color: black; color: white;">
+			Qual a vantagem do RGBA em relação ao RGB? Explique e exemplifique. Apresente exemplos.
+		</h1>
+		<div style="display:flex; background-color: black;width: 1200px;height: 70px;">
+			<p style="color: rgb(255,255,255);">
+				A vantagem é que em uma rgba podemos trabalhar com a opacidade da cor, tornando o objeto transparente de acordo com a necessidade. Exemplo:
+			</p>
+			<p style="color: rgba(255,255,255, 0.5);">
+				OPACIDADE DA COR BRANCA EM 0.5
+			</p>	
+			<p style="color: rgb(8,226,11);">
+				COR VERDE
+			</p>
+
+			<p style="color: rgba(8,266,11, 0.7);">
+				OPACIDADE DA COR VERDE EM 0.7
+			</p>				
+		</div>
+		
+	</div>
+
+
+</body>
+</html>

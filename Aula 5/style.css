@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(65, 65, 167, 0.856);
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    width: 700px;
+    height: 50px;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(228, 199, 255, 0.877);
+    color: #272729;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin: 0px auto;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+hr {
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.color1 {
+    background-color: rgb(114, 0, 0);
+}
+.color2 {
+    background-color: rgb(12, 12, 94);
+}
+.color3 {
+    background-color: rgb(11, 77, 11);
+}
+.color4 {
+    background-color: rgb(2, 59, 182);
+}
+.color5 {
+    background-color: rgb(128, 77, 0);
+}
+.color6 {
+    background-color: rgb(173, 173, 0);
+}

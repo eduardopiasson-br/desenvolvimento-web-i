@@ -1,0 +1,9 @@
+1 - Não, pois o LANG é utilizado para especificar em qual idioma a pagina HTML está.
+O CHARSET por outro lado é utilizado para definir a codificação, se utiliza UTF-8 ou ISO-8859-1.
+
+2 - ISO-8859-1 é mais leve e utiliza menos espaço. O UTF-8 pode chegar a ter o dobro do tamanho da iso,
+porém suporta boa parte das fontes utilizadas por diversas linguas.
+
+3 - https://ajuda.locaweb.com.br/wiki/caracteres-acentuados-hospedagem-de-sites/, ISO-8859-1 é leve e ocupa menos espaço
+que as demais, além de ser encoding, que suporta até 259 caracteres. ISO-8859-1 é aconselhados para aqueles idiomas de 
+origem latina e paises europeus.
