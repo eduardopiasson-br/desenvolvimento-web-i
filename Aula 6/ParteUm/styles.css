@@ -1,0 +1,40 @@
+/* CONTEÚDO PARA EXERCÍCIO 2 */
+#site {
+    width: 800px;
+    border-spacing: 0px;
+}
+/* Fim exercício 2 */
+#cabecalho {
+    width: 800px;
+    height: 100px;
+    float: left;
+    background-color: #7D4EBF;
+}
+#conteudo {
+    width: 800px;
+    height: 400px;
+}
+#conteudo-esquerda {
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: #f2c335;
+}
+#conteudo-direita {
+    width: 400px;
+    height: 200px;
+    float: right;
+    background-color: #f29a2e;
+}
+#conteudo-inferior {
+    width: 800px;
+    height: 200px;
+    float: left;
+    background-color: #fbff87;
+}
+#rodape {
+    width: 800px;
+    height: 100px;
+    float: left;
+    background-color: #f28d77;
+}

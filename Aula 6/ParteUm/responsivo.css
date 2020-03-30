@@ -1,0 +1,39 @@
+#site {
+    width: 60%;
+    height: 51vw;
+    border-spacing: 0px;
+}
+#cabecalho {
+    width: 100%;
+    height: 14%;
+    float: left;
+    background-color: #7D4EBF;
+}
+#conteudo {
+    width: 100%;
+    height: 72%;
+}
+#conteudo-esquerda {
+    width: 50%;
+    height: 40%;
+    float: left;
+    background-color: #f2c335;
+}
+#conteudo-direita {
+    width: 50%;
+    height: 40%;
+    float: right;
+    background-color: #f29a2e;
+}
+#conteudo-inferior {
+    width: 100%;
+    height: 40%;
+    float: left;
+    background-color: #fbff87;
+}
+#rodape {
+    width: 100%;
+    height: 14%;
+    float: left;
+    background-color: #f28d77;
+}
