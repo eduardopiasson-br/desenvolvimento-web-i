@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #FBFF87;
+    color: #afafaf;
+    padding-top: 25px;
+    height: 10vh;
+}
+.titulo-dois{
+    margin-top: 10px;
+    height: 6vh;
+    font-size: 30px;
+    background-color:#FBFF87;
+    color: rgb(209, 209, 209);
+    padding-left: 15px;
+}
+.titulo-tres {
+    font-style: oblique;
+    font-size: 38px;
+    color: #575757;
+    text-align: initial;
+    background-color: #E7E84C;
+}
+.conteudo {
+    display: flex;
+    width: 100%;
+}
+.descricao {
+    font-size: 35px;
+    padding: 10px;
+    text-align: justify;
+    color: #797979;
+    background-color: #E7E84C;
+    height: 82%;
+}
