@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="title">
+        <h1 style="background-color: #382465;">Projeto de Calculadora</h1>
+    </div>
+
+    <hr style="width: 50%; margin: 0 auto">
+
+    <form id="formulario">
+        <!-- EXERCÍCIO UM - OPERAÇÕES BÁSICAS -->
+        <div class="activities">     
+            <h3 class="title-two">Operações Básicas</h3>   
+            <div class="calc">
+                <input type="number" id="A">
+                <input type="number" id="B">
+            </div>
+            <div class="calc">
+                <input class="button" type="button" value="+" onClick="calc(this)">
+                <input class="button" type="button" value="-" onClick="calc(this)">
+                <input class="button" type="button" value="*" onClick="calc(this)">
+                <input class="button" type="button" value="/" onClick="calc(this)">
+            </div>
+        </div>
+
+        <!-- EXERCÍCIO DOIS - VERIFICAR MAIOR -->
+        <div class="activities">
+            <h3 class="title-two">Informe dois números para verificar o Maior</h3>   
+            <div class="calc">
+                <input type="number" id="K">
+                <input type="number" id="E">
+            </div>
+            <div class="calc">            
+                <button class="button" id="max" onclick="maior()">Calcular</button>
+            </div>
+        </div>
+        
+        <!-- EXERCÍCIO TRES - CALCULAR ÁREA DE UM CIRCULO -->
+        <div class="activities">
+            <h3 class="title-two">Informe o Raio do Circulo para Calcular sua Área</h3>   
+            <div class="calc">
+                <input class="circle" type="number" id="X">
+            </div>
+            <div class="calc">
+                <button class="button" onclick="areaCirculo()">Calcular</button>
+            </div>
+        </div>
+
+        <!-- EXERCÍCIO QUATRO - CALCULAR ÁREA DE RETÂNGULO -->
+        <div class="activities">
+            <h3 class="title-two">Informe a Base e a Altura do Retângulo para Calcular sua Área</h3>   
+            <div class="calc">
+                <input type="number" id="Y">
+                <input type="number" id="Z">
+            </div>
+            <div class="calc">
+                <button class="button" onclick="areaRetangulo()">Calcular</button>
+            </div>
+        </div>
+
+        <!-- LIMPAR -->
+        <hr style="width: 50%; margin: 0 auto">
+        <h3 class="title-two">Limpar tudo</h3>   
+        <div class="calc">
+            <button class="button" id="limpar" onclick="limpar()">Limpar</button>
+        </div>
+    </form>
+    
+    <script src="functions.js"></script>
+</body>
+</html>
