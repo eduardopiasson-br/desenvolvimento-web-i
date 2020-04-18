@@ -1,0 +1,163 @@
+/* CSS Gerais */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    width: 50%;
+    text-align: center;
+}
+
+/* CSS de titulos */
+h1 {
+    font-family: Courgette;
+    font-size: 50px;
+    padding: 10px 0;
+    -webkit-text-stroke: 1px #f1af09;
+    -webkit-text-fill-color: #daa520;
+}
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding:20px 0;
+    color: #eef5b3ec;
+}
+.h1 {
+    color: #f1af09;
+}
+
+/* CSS para Input que recebe dados do preenchedor */
+input {
+    font-family: Abel;
+    float: right;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.label {
+    font-family: Josefin Sans;
+    width: 50%;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+.margin {
+    margin-right: 25px;
+}
+
+/* CSS para dados montados */
+.result {
+    font-family: Josefin Sans;
+    width: 80%;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d6d6d6;
+    margin: 0 auto;
+
+}
+
+/* CSS para botão */
+button {
+    border-color:#ce882d;
+    background:linear-gradient(to bottom, #f1af09d0 5%, #daa520d3 100%);
+    box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;  
+    padding: 15px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* CSS para Quartos Disponíveis */
+ul {
+    margin: 10px 30px;
+}
+li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+.quartos {
+    display: inline-flex;
+    color: rgb(240, 231, 231);
+    font-weight: 600;
+    background-color: #026873b0;
+    width: 99.7%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.tipo-quarto {
+    font-size: 25px;
+    color: rgb(226, 226, 158);
+    text-decoration: underline;
+}
+
+/* CSS de Dados */
+.dados {
+    display: flex;
+}
+.dados-dois {
+    padding: 25px;
+}
+
+/* CSS de Cores */
+.color-um {
+    background-color: rgba(3, 140, 140, 0.76);
+}
+.color-dois {
+    background-color: rgba(3, 166, 150, 0.829);
+}
+.color-tres {
+    background-color: rgba(128, 128, 128, 0.788);
+}
+.color-quatro {
+    background-color: rgba(75, 75, 75, 0.76);
+}
+.top {
+    background-color: #026873a6;
+    width: 99.8%;
+}
+
+.dispo {
+    background-color: #027368b6;
+    width: 99.8%;
+}
+
+/* CSS para Efeito do titulo */
+.efeito {
+    cursor: pointer;
+}
+.efeito:hover {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/* CSS para aparecer conteúdo */
+#conteudo {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3 ease-in-out;
+}
+#conteudo.fade {
+    opacity: 1;
+}
