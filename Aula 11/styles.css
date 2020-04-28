@@ -1,0 +1,98 @@
+/* CSS Gerais */
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+body {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CSS de titulos */
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding:20px 0;
+    color: #eef5b3ec;
+}
+
+/* CSS para Input que recebe dados do preenchedor */
+input {
+    float: right;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.label {
+    width: 50%;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+.margin {
+    margin-right: 25px;
+}
+
+/* CSS para dados montados */
+.result {
+    width: 80%;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d6d6d6;
+    margin: 0 auto;
+
+}
+
+/* CSS para botão */
+button {
+    border-color:#2dc3ce;
+    background:linear-gradient(to bottom, #09f1e5d0 5%, #2080dad3 100%);
+    box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+    color:#fff;
+    text-shadow:0px 1px 0px #0b0980;  
+    padding: 15px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* CSS de Dados */
+.dados {
+    display: flex;
+}
+.dados-dois {
+    padding: 25px;
+}
+
+/* CSS de Cores */
+.color-um {
+    background-color: rgba(3, 140, 140, 0.76);
+}
+.color-dois {
+    background-color: rgba(3, 166, 150, 0.829);
+}
+.color-tres {
+    background-color: rgba(128, 128, 128, 0.788);
+}
+.color-quatro {
+    background-color: rgba(75, 75, 75, 0.76);
+}
+.top {
+    background-color: #026873a6;
+    width: 99.8%;
+}
+
+.dispo {
+    background-color: #027368b6;
+    width: 99.8%;
+}

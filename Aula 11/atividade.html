@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Replace | Formulario</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Diretório de Icones do Fonte-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Formulário de Preenchimento -->
+    <section>
+        <div>
+            <h3 class="top"><i class="fas fa-clipboard-list"></i> Formulário de Dados</h3><hr>
+            <!-- Formulário de dados do usuário -->
+            <form>
+                <div class="dados">
+                    <div class="label color-um"><label for="fone">Fone:</label></div>
+                    <input class="color-quatro" type="text" id="fone">
+                </div>
+                <div class="dados">
+                    <div class="label color-dois"><label for="celular">Celular:</label></div>
+                    <input class="color-tres" type="text" id="celular">
+                </div>
+                <div class="dados">
+                    <div class="label color-um"><label for="cep">CEP:</label></div>
+                    <input class="color-quatro" type="text" id="cep">
+                </div>
+                <div class="dados">
+                    <div class="label color-dois"><label for="rg">RG</label></div>
+                    <input class="color-tres" type="text" id="rg">
+                </div>
+                <div class="dados">
+                    <div class="label color-um"><label for="cnpj">CNPJ</label></div>
+                    <input class="color-quatro" type="text" id="cnpj">
+                </div>
+            </form><hr>            
+        </div>
+
+        <!-- Formulário de Resposta -->
+        <div>
+            <!-- Botão para gerar os dados de conferência -->
+            <button onclick="montarDados()"><i class="fas fa-check-double"></i> Conferir</button>
+            <div id="conteudo">
+                <h3 style="width: 70%;margin: 0 auto;" class="dispo"><i class="fas fa-clipboard-check"></i> Confira seus dados:</h3>
+                <div class="dados result color-dois dados-dois">
+                    <p class="margin">Fone:</p>
+                    <p id="paragrafo_fone"></p>
+                </div>
+                <div class="dados result color-um dados-dois">
+                    <p class="margin">Celular:</p>
+                    <p id="paragrafo_celular"></p>
+                </div>
+                <div class="dados result color-dois dados-dois">
+                    <p class="margin">CEP:</p>
+                    <p id="paragrafo_cep"></p>
+                </div>
+                <div class="dados result color-um dados-dois">
+                    <p class="margin">RG:</p>
+                    <p id="paragrafo_rg"></p>
+                </div>
+                <div class="dados result color-dois dados-dois">
+                    <p class="margin">CNPJ:</p>
+                    <p id="paragrafo_cnpj"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts utilizados -->
+    <footer> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+        <script src="scripts.js"></script>
+    </footer>
+</body>
+</html>
