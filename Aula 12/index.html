@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="Images/hastag.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="tudo">
+        <div class="img">
+            <img class="img-um" src="images/frame.png" alt="velha">
+        </div>
+        <div class="classe_tab">
+            <ul>
+                <li id="cel11" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel12" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel13" class="classe_cel" onclick="joga(this.id)"></li>
+            </ul>
+            <ul>
+                <li id="cel21" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel22" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel23" class="classe_cel" onclick="joga(this.id)"></li>
+            </ul>
+            <ul>
+                <li id="cel31" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel32" class="classe_cel" onclick="joga(this.id)"></li>
+                <li id="cel33" class="classe_cel" onclick="joga(this.id)"></li>
+            </ul>
+        </div>
+        <div class="img2">
+            <img class="img-dois" src="images/grandmother.png" alt="velha">
+        </div>
+    </div>
+
+    <button onclick="location.reload()">Jogar Novamente</button>
+
+    <script rel="javascript" src="scripts.js"></script>
+</body>
+
+</html>
